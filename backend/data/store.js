@@ -7,83 +7,67 @@ function initializeSeedData() {
   tasks = [
     {
       id: nextId++,
-      title: "Complete project setup",
-      description: "Initialize backend and frontend project structure",
+      title: "Hi, I'm Lior Toledano",
+      description: "A Full Stack Developer & recent Computer Science graduate.",
       completed: true,
       createdAt: new Date("2026-02-12T09:00:00.000Z"),
       priority: "high"
     },
     {
       id: nextId++,
-      title: "Build backend API",
-      description: "Create Express server with REST endpoints",
+      title: "I love solving complex UI challenges",
+      description: "Like this endless carousel built with pure Vanilla CSS and React logic.",
       completed: true,
       createdAt: new Date("2026-02-12T09:30:00.000Z"),
       priority: "high"
     },
     {
       id: nextId++,
-      title: "Implement endless carousel",
-      description: "Build carousel with smooth infinite scrolling using vanilla React",
+      title: "I'm a Gamer & Tech Enthusiast",
+      description: "When I'm not coding, you'll find me on Counter-Strike 2 or checking out new hardware.",
       completed: false,
       createdAt: new Date("2026-02-12T10:00:00.000Z"),
-      priority: "high"
-    },
-    {
-      id: nextId++,
-      title: "Create TaskItem component",
-      description: "Design and implement individual task card display",
-      completed: false,
-      createdAt: new Date("2026-02-12T10:30:00.000Z"),
       priority: "medium"
     },
     {
       id: nextId++,
-      title: "Add form validation",
-      description: "Implement client-side validation for task creation",
+      title: "Backend Foundation: Port 4000",
+      description: "Developed a robust Express API with full CRUD and in-memory storage.",
+      completed: true,
+      createdAt: new Date("2026-02-12T10:30:00.000Z"),
+      priority: "high"
+    },
+    {
+      id: nextId++,
+      title: "Clean Code is my standard",
+      description: "Using expressive variable names and maintaining a clear project structure.",
       completed: false,
       createdAt: new Date("2026-02-12T11:00:00.000Z"),
       priority: "medium"
     },
     {
       id: nextId++,
-      title: "Style with vanilla CSS",
-      description: "Apply clean, modern styling without frameworks",
+      title: "I enjoy the grit of Sci-Fi",
+      description: "Fan of shows like 'The Boys' and 'Invincible' - I appreciate bold, uncensored storytelling.",
       completed: false,
       createdAt: new Date("2026-02-12T11:30:00.000Z"),
-      priority: "medium"
+      priority: "low"
     },
     {
       id: nextId++,
-      title: "Test responsive design",
-      description: "Verify mobile, tablet, and desktop layouts",
+      title: "Responsive is not optional",
+      description: "This task manager is optimized for Mobile, Tablet, and Desktop users.",
       completed: false,
       createdAt: new Date("2026-02-12T12:00:00.000Z"),
-      priority: "low"
+      priority: "high"
     },
     {
       id: nextId++,
-      title: "Write documentation",
-      description: "Create comprehensive README with setup instructions",
+      title: "Let's build something great!",
+      description: "Always looking for the next challenge in Full Stack development.",
       completed: false,
       createdAt: new Date("2026-02-12T12:30:00.000Z"),
-      priority: "low"
-    },
-    {
-      id: nextId++,
-      title: "Perform final testing",
-      description: "Test all CRUD operations and carousel functionality",
-      completed: false,
-      createdAt: new Date("2026-02-12T13:00:00.000Z"),
-      priority: "high"
-    },
-    {
-      id: nextId++,
-      title: "Submit assignment",
-      description: "Push to GitHub and submit repository link",
-      completed: false,
-      createdAt: new Date("2026-02-12T13:30:00.000Z"),
-      priority: "high"
+      priority: "medium"
     }
   ];
 }

@@ -1,4 +1,4 @@
-// Global error handler middleware
+// global error handler middleware
 function errorHandler(err, req, res, next) {
   console.error('Error:', err);
 

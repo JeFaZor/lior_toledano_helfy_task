@@ -6,14 +6,14 @@ const errorHandler = require('./middleware/errorHandler');
 const app = express();
 const PORT = 4000;
 
-// Middleware
+// middleware
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// routes
 app.use('/api/tasks', tasksRouter);
 
-// Error handler (must be after routes)
+// error handler (must be after the routes)
 app.use(errorHandler);
 
 // Start server
